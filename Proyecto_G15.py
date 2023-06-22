@@ -168,6 +168,7 @@ def main():
     print(f"Editorial del libro: {libro.editorial}")
     print(f"Fecha de entrega: {pedido.fecha_prestamo}")
     print(f"Fecha de devolución: {pedido.fecha_devolucion}")
+    print("\nGRUPO 15 - INTEGRANRES: KATHERINE SANCHEZ, DARLING MEDINA Y BRYAN REVELO")
 
     print(pedido.pedir_material([libro, revista], estudiante, 'Cálculo'))
     print(pedido.devolver_material(estudiante))
